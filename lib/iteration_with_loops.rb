@@ -8,8 +8,9 @@ def find_even_values(src)
     element_index = 0 
     while element_index < src[row_index].count do
       if src[row_index][element_index]%2 == 0 
-        result_array.push()
-
-
-
+        result_array.push(src[row_index][element_index])
+      end
+    end
+  end
+  result_array
 end
